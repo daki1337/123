@@ -1,63 +1,45 @@
-console.log('hi!');
+// const number1 = prompt ('enter first number', 2);
+// const number2 = prompt ('enter second number', 3);
 
-// створіть змінну яка буде зберігати час коли ви прокидаєтесь
+// console.log('number1 = ', number1, typeof number1);
+// console.log('number2 = ', number2, typeof number2);
 
-let wakeUpTime = '10:30';
-console.log(wakeUpTime);
+// // + - concatenation
+// const summa1 = number1 + number2; //53 - СКЛЕЄНІ РЯДКИ
+// alert ('summa1 = ' + summa1);
 
-// створіть змінну яка буде зберігати кількість днів у тиждні
+// const summa2 = +number1 + +number2; //8
+// alert ('summa2 = ' + summa2);
 
-const daysPerWeek = 7;
-console.log("Days per week:", daysPerWeek);
+// const summa3 =Number(number1) + Number (number2); //8
+// alert ('summa3 = ' + summa3);
 
-//створіть змінну, яка містить булеве значення чи є ви працівником
+// const substruct = Number(number1) - Number(number2); //2
+// alert(substruct);
+const product1 = prompt ('Назва продукту:');
+const onePrice = prompt ('Ціна продукту:');
 
-const isWork = false;
+const product2 = prompt ('Назва продукту:');
+const twoPrice = prompt ('Ціна продукту:');
+const allPrice = Number(onePrice) + Number(twoPrice);
 
-
-// створіть змінну, яка зберігає ваш зріст в метрах 1.84
-
-const myHeight = 1.84;
-console.log(myHeight);
-
-// чи є машина?
-
-const isCar = false;
-
-const titleMovie = 'Titanic';
-console.log(titleMovie);
-titleMovie = 'Titanic2';
-
-// створіть змінну для вашої домашньої тварини і запишіть що зе за тварина я або null
-
-let pet = null;
-
-// ім'я
-
-let firstName = 'Nazar';
-console.log(firstName);
+alert ('Ви купили:\n ' + product1 + onePrice + '\n' + product2 + twoPrice + '\n' + '-----'+ '\n' + тварини + 'Всього до сплати: ' + allPrice );
 
 
 
-let isAdult = true;
-let isWeekend = false;
+//користувач послідовно вводить назву продукта і його ціну
 
-// створіть змінну яка буде містити булеве значення про те чи є ви студентом
-let isStudent = false;
+// так треба ввести інформацію про мінімум 2 продукта
 
-let yearOfBirth = 1900;
-console.log(yearOfBirth);
-let yearBD = 1978;
-console.log(yearOfBirth);
+// вивести чек у вигляді
 
-//створіть змінну для зберігання вашого улюленного кольору
+/* Ви купили: 
+молоко - 45 грн
+хліб - 23грн 
+- - - - -
+до сплати - 68 грн
+/*
 
-let my_favoriteColor = 'purple';
-console.log= (my_favoriteColor);
 
-let age = null;
-console.log(age);
-age=45;
-console.log(age);
 
 
